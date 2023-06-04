@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Myriad Pro, Lato, Arial, Helvetica, sans-serif;
+}
+
+:root{
+  --backgroundColor:rgb(229, 229, 229);
+  --primaryColor:#2e2929;
+  --primaryTextColor: #423b3b;
+
+  --headlineBig:clamp(5rem, 9.9vw, 15rem);
+  --headlineMedium:clamp(1rem, 2vw, 4rem);
+  --headlineSmall:clamp(0.6rem, 0.75vw, 1.3rem);
+  --spacing:clamp(0.9rem, 0.75vw, 1.3rem);
+}
+
+body{
+  background-color: var(--backgroundColor);
+}
+
+.scroll-section-outer{
+  overflow: hidden;
+}
+
+.scroll-section-inner{
+  height: 100vh;
+  min-width: 1550%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.scroll-section-inner-pc{
+  height: 100vh;
+  min-width: 400%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+
+/* .scroll-section h3 {
+  color: var(--primaryTextColor);
+  letter-spacing: var(--headlineSmall);
+  font-size: var(--headlineSmall);
+  text-transform: uppercase;
+} */
+
+.width{
+  width: 20%;
+}
+.width2{
+  width: 15%;
+}
+
+.foto{
+  top: -73%;
+
+}
+
+
+/* ESTILOS GLOBALES*/
+
+/*BACKGROUND ESTILOS IMG*/
+.bg-style{
+  @apply bg-cover bg-center
+}
+
+/*BUTTON ESTILOS */
+.btn{
+  @apply w-52 h-16 rounded-lg my-4 border-black text-white
+}
+
+/* ESTILO TITULOS*/
+.styleTitle{
+  @apply bg-gradient-to-r from-green-700 to-green-400 rounded-tr-full
+}
+
+.phone_home{
+  @apply h-screen w-screen px-10 flex flex-col
+}
+
+.phone_home2{
+  @apply flex flex-col width h-screen
+}

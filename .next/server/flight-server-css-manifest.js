@@ -1,0 +1,18 @@
+self.__RSC_CSS_MANIFEST={
+  "cssImports": {
+    "C:\\Users\\Windows10\\Desktop\\wellgix_beta2\\src\\app\\page.js": [
+      "C:\\Users\\Windows10\\Desktop\\wellgix_beta2\\src\\app\\styles\\Nav.module.css"
+    ],
+    "C:\\Users\\Windows10\\Desktop\\wellgix_beta2\\src\\app\\layout.js": [
+      "C:\\Users\\Windows10\\Desktop\\wellgix_beta2\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "C:\\Users\\Windows10\\Desktop\\wellgix_beta2\\src\\app\\styles\\globals.css"
+    ]
+  },
+  "cssModules": {
+    "C:\\Users\\Windows10\\Desktop\\wellgix_beta2\\src\\app\\page": [
+      "C:\\Users\\Windows10\\Desktop\\wellgix_beta2\\src\\app\\styles\\Nav.module.css",
+      "C:\\Users\\Windows10\\Desktop\\wellgix_beta2\\src\\app\\styles\\globals.css",
+      "C:\\Users\\Windows10\\Desktop\\wellgix_beta2\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ]
+  }
+}
